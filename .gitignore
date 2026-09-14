@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Project inputs & outputs — NEVER commit drawings or extracted data.
+# This repo is tooling-only; the pipeline reproduces data from your inputs.
+hap-project.toml
+extracts/
+gbxml/
+*.dxf
+*.dwg
+*.dxb
+*.idf
+*.csv
+*.xml
+*.epw
+*.htm
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
